@@ -131,6 +131,7 @@ TARGETS += uinput
 TARGETS += usb-modem-drivers
 TARGETS += usb-audio-drivers
 TARGETS += util-linux-tools
+TARGETS += util-linux-mountpoint
 TARGETS += v4l-uvc-drivers
 TARGETS += vc4
 TARGETS += vmtoolsd-guest-agent
@@ -314,4 +315,3 @@ release-notes: $(ARTIFACTS)
 conformance:
 	@docker pull $(CONFORMANCE_IMAGE)
 	@docker run --rm -it -v $(PWD):/src -w /src $(CONFORMANCE_IMAGE) enforce
-

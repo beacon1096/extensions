@@ -194,6 +194,7 @@ tiers based on support level:
 | ---- | ---- | ----- | ------- | ----------- |
 | [ctr](tools/ctr) | :green_square: core | [ghcr.io/siderolabs/ctr](https://github.com/siderolabs/extensions/pkgs/container/ctr) | `v2.2.2` |  This extension provides ctr containerd helper binary |
 | [nvme-cli](tools/nvme-cli) | :white_large_square: contrib | [ghcr.io/siderolabs/nvme-cli](https://github.com/siderolabs/extensions/pkgs/container/nvme-cli) | `v2.14` |  This system extension provides the NVMe command line interface. |
+| [util-linux-mountpoint](tools/util-linux-mountpoint) | :white_large_square: contrib | [ghcr.io/siderolabs/util-linux-mountpoint](https://github.com/siderolabs/extensions/pkgs/container/util-linux-mountpoint) | `2.41.4` |  This system extension provides a minimal util-linux package with mountpoint for CSI compatibility. |
 | [util-linux-tools](tools/util-linux) | :white_large_square: contrib | [ghcr.io/siderolabs/util-linux-tools](https://github.com/siderolabs/extensions/pkgs/container/util-linux-tools) | `2.41.4` |  This system extension provides a minimal util-linux package. |
 
 <!-- ### END GENERATED CONTENT -->
