@@ -71,6 +71,7 @@ spec:
     - usb-modem-drivers
     - usb-audio-drivers
     - util-linux-tools
+    - util-linux-mountpoint
     - v4l-uvc-drivers
     - vc4
     - vmtoolsd-guest-agent
